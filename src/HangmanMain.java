@@ -9,6 +9,8 @@ public class HangmanMain
 		System.out.print("Please enter the level you would like to play: easy, medium or hard: ");
 		String level = input.nextLine();
 		GenerateWord word = new GenerateWord(level);
+		
+		//testing
 		System.out.println(word.getWord());
 	}
 }
